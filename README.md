@@ -15,7 +15,6 @@ A lightweight program tracer written in C. This tool programmatically wraps the 
 To build and run this project, you need:
 * A C compiler (e.g., `gcc` or `clang`)
 * `gdb` or `gdb-multiarch` installed on your system
-* Standard POSIX headers and the `util` library (for `pty.h` and `forkpty`)
 
 ## Building
 
@@ -23,7 +22,7 @@ Compile the source code using `gcc`.
 
 
 ```bash
-gcc -o tracer tracer.c -lutil
+gcc -o tracer tracer.c
 ```
 
 ## Usage
